@@ -7,10 +7,23 @@ import java.util.zip.ZipOutputStream;
 
 public class ZipFile {
     public static void main(String[] args) throws IOException {
-//        ZipFile zipFile = new ZipFile();
-        for (String arg : args) {
+        ZipFile zf = new ZipFile(args);
+    }
 
+    public ZipFile(String[] args) {
+        for (String arg : args) {
+            this.getFiles(arg);
         }
+    }
+
+    void getFiles(String arg) {
+        File f;
+        f = new File(arg);
+        if (f.isDirectory()) this.getFiles(arg);
+        else doZip(arg);
+    }
+
+    void doZip(String arg) {
         String user_dir = System.getProperty("user.dir");
         String zipFileName = new File(user_dir).getName();
         FileOutputStream fos = new FileOutputStream(zipFileName+".zip");
