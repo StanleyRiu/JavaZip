@@ -1,0 +1,450 @@
+D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4
+D:\WorkBench\checkmarx\CxCLI\runCxConsole.cmd Scan -v  -CxServer https://checkmarx.cht.com.tw/CxWebClient -projectName /CxServer/SP/CHTTLTC/bovilive-web-v4 -CxUser admin@cx -CxPassword 1qaz2wsx#EDC$RFV -LocationType folder -LocationPath D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4 -Preset CHTTLTC -ReportPDF D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4.pdf -ReportXML D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4.xml
+.+ report location: (D:\\C23\\方絏苯磞\\110\\︽だ痴环\\\[方絏\]\[04\]︽だ痴环_web_bovilive_0407\\bovilive-web-v4\.(xml|pdf))
+[2021-04-15 13:05:21,952 INFO ] [CxConsole]  Log file location: .\logs\cx_console
+[2021-04-15 13:05:21,961 INFO ] -----------------------------------------------------------------------------------------
+[2021-04-15 13:05:21,961 INFO ] CxConsole Configuration: 
+[2021-04-15 13:05:21,961 INFO ] --------------------
+[2021-04-15 13:05:21,961 INFO ] verbose: true
+[2021-04-15 13:05:21,963 INFO ] cxserver: https://checkmarx.cht.com.tw/CxWebClient
+[2021-04-15 13:05:21,963 INFO ] projectname: /CxServer/SP/CHTTLTC/bovilive-web-v4
+[2021-04-15 13:05:21,963 INFO ] cxuser: admin@cx
+[2021-04-15 13:05:21,963 INFO ] cxpassword: ********
+[2021-04-15 13:05:21,963 INFO ] locationtype: folder
+[2021-04-15 13:05:21,963 INFO ] locationpath: D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4
+[2021-04-15 13:05:21,964 INFO ] preset: CHTTLTC
+[2021-04-15 13:05:21,964 INFO ] reportpdf: D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4.pdf
+[2021-04-15 13:05:21,964 INFO ] reportxml: D:\\C23\\方絏苯磞\\110\\︽だ痴环\\[方絏][04]︽だ痴环_web_bovilive_0407\\bovilive-web-v4.xml
+[2021-04-15 13:05:21,964 INFO ] --------------------
+
+
+[2021-04-15 13:05:21,968 INFO ] Default configuration file location: D:\WorkBench\checkmarx\CxCLI\config\cx_console.properties
+[2021-04-15 13:05:22,317 INFO ] Initializing Cx client [2020.2.20.SCA]
+[2021-04-15 13:05:22,488 INFO ] Logging into the Checkmarx service.
+[2021-04-15 13:05:22,720 INFO ] full team path: /CxServer/SP/CHTTLTC
+[2021-04-15 13:05:22,774 INFO ] preset name: CHTTLTC
+[2021-04-15 13:05:22,802 INFO ] -----------------------------------Create CxSAST Scan:------------------------------------
+[2021-04-15 13:05:22,887 INFO ] Exclude folders converted to: '!**/_cvs/**,!**/.svn/**,!**/.hg/**,!**/.git/**,!**/.bzr/**,!**/bin/**,!**/obj/**,!**/backup/**,!**/node_modules/**,'
+[2021-04-15 13:05:22,888 INFO ] Zipping sources
+[2021-04-15 13:05:22,889 INFO ] Zipping workspace: 'D:\C23\方絏苯磞\110\︽だ痴环\[方絏][04]︽だ痴环_web_bovilive_0407\bovilive-web-v4'
+[2021-04-15 13:05:22,915 INFO ] Zipping (0 bytes): _pipelining.min.js
+[2021-04-15 13:05:22,931 INFO ] Zipping (1 KB): account.min.js
+[2021-04-15 13:05:22,942 INFO ] Zipping (11 KB): bovicam\dashboard.min.js
+[2021-04-15 13:05:22,950 INFO ] Zipping (13 KB): bovicam\device.min.js
+[2021-04-15 13:05:22,960 INFO ] Zipping (25 KB): bovicam\network.min.js
+[2021-04-15 13:05:22,967 INFO ] Zipping (27 KB): bovicam\stream.min.js
+[2021-04-15 13:05:22,975 INFO ] Zipping (30 KB): bovicam\system.min.js
+[2021-04-15 13:05:22,982 INFO ] Zipping (31 KB): dashboard.min.js
+[2021-04-15 13:05:22,993 INFO ] Zipping (42 KB): deviceConfig-default.min.js
+[2021-04-15 13:05:23,001 INFO ] Zipping (43 KB): deviceConfig.min.js
+[2021-04-15 13:05:23,019 INFO ] Zipping (46 KB): draw.min.js
+[2021-04-15 13:05:23,026 INFO ] Zipping (49 KB): fis.min.js
+[2021-04-15 13:05:23,036 INFO ] Zipping (55 KB): fr.min.js
+[2021-04-15 13:05:23,048 INFO ] Zipping (78 KB): general.min.js
+[2021-04-15 13:05:23,058 INFO ] Zipping (87 KB): language.min.js
+[2021-04-15 13:05:23,069 INFO ] Zipping (92 KB): lib\axios.min.js
+[2021-04-15 13:05:23,077 INFO ] Zipping (96 KB): lib\bootbox.min.js
+[2021-04-15 13:05:23,083 INFO ] Zipping (100 KB): lib\bootstrap-datetimepicker.min.js
+[2021-04-15 13:05:23,094 INFO ] Zipping (116 KB): lib\bootstrap-modal-popover.min.js
+[2021-04-15 13:05:23,099 INFO ] Zipping (117 KB): lib\bootstrap-select.js.map
+[2021-04-15 13:05:23,108 INFO ] Zipping (131 KB): lib\bootstrap-select.min.js
+[2021-04-15 13:05:23,118 INFO ] Zipping (140 KB): lib\bootstrap-submenu.js
+[2021-04-15 13:05:23,123 INFO ] Zipping (142 KB): lib\bootstrap-submenu.min.js
+[2021-04-15 13:05:23,129 INFO ] Zipping (143 KB): lib\bootstrap-switch.min.js
+[2021-04-15 13:05:23,139 INFO ] Zipping (146 KB): lib\bootstrap-treeview.min.js
+[2021-04-15 13:05:23,149 INFO ] Zipping (150 KB): lib\bootstrap.min.js
+[2021-04-15 13:05:23,158 INFO ] Zipping (159 KB): lib\dataTables.bootstrap.min.js
+[2021-04-15 13:05:23,163 INFO ] Zipping (160 KB): lib\dataTables.buttons.min.js
+[2021-04-15 13:05:23,174 INFO ] Zipping (166 KB): lib\dateformat.min.js
+[2021-04-15 13:05:23,180 INFO ] Zipping (167 KB): lib\daterangepicker.min.js
+[2021-04-15 13:05:23,188 INFO ] Zipping (175 KB): lib\draw.back.min.js
+[2021-04-15 13:05:23,192 INFO ] Zipping (175 KB): lib\draw.min.js
+[2021-04-15 13:05:23,199 INFO ] Zipping (179 KB): lib\dropdown.min.js
+[2021-04-15 13:05:23,204 INFO ] Zipping (180 KB): lib\fileinput-sortable.min.js
+[2021-04-15 13:05:23,214 INFO ] Zipping (186 KB): lib\fileinput-them.min.js
+[2021-04-15 13:05:23,219 INFO ] Zipping (187 KB): lib\fileinput.js
+[2021-04-15 13:05:23,237 INFO ] Zipping (235 KB): lib\fileinput.min.js
+[2021-04-15 13:05:23,253 INFO ] Zipping (270 KB): lib\jcarousel.autoscroll.min.js
+[2021-04-15 13:05:23,258 INFO ] Zipping (271 KB): lib\jcarousel.control.min.js
+[2021-04-15 13:05:23,261 INFO ] Zipping (271 KB): lib\jcarousel.min.js
+[2021-04-15 13:05:23,268 INFO ] Zipping (277 KB): lib\jcarousel.pagination.min.js
+[2021-04-15 13:05:23,272 INFO ] Zipping (278 KB): lib\jquery-ui.min.js
+[2021-04-15 13:05:23,293 INFO ] Zipping (344 KB): lib\jquery.dataTables.min.js
+[2021-04-15 13:05:23,308 INFO ] Zipping (371 KB): lib\jquery.fileDownload.min.js
+[2021-04-15 13:05:23,313 INFO ] Zipping (374 KB): lib\jquery.growl.min.js
+[2021-04-15 13:05:23,320 INFO ] Zipping (375 KB): lib\jquery.lazyload.min.js
+[2021-04-15 13:05:23,325 INFO ] Zipping (377 KB): lib\jquery.min.js
+[2021-04-15 13:05:23,338 INFO ] Zipping (406 KB): lib\jquery.mobile-1.3.1.min.js
+[2021-04-15 13:05:23,356 INFO ] Zipping (447 KB): lib\jquery.spinner.min.js
+[2021-04-15 13:05:23,363 INFO ] Zipping (448 KB): lib\jquery.timer.min.js
+[2021-04-15 13:05:23,366 INFO ] Zipping (449 KB): lib\jquery.ui.touch-punch.min.js
+[2021-04-15 13:05:23,370 INFO ] Zipping (449 KB): lib\jstree-table.min.js
+[2021-04-15 13:05:23,381 INFO ] Zipping (464 KB): lib\jstree.min.js
+[2021-04-15 13:05:23,395 INFO ] Zipping (496 KB): lib\lazyload.min.js
+[2021-04-15 13:05:23,400 INFO ] Zipping (498 KB): lib\leaflet.extra-markers.min.js
+[2021-04-15 13:05:23,404 INFO ] Zipping (499 KB): lib\leaflet.min.js
+[2021-04-15 13:05:23,423 INFO ] Zipping (537 KB): lib\locales\LANG.js
+[2021-04-15 13:05:23,430 INFO ] Zipping (539 KB): lib\locales\ar.js
+[2021-04-15 13:05:23,435 INFO ] Zipping (541 KB): lib\locales\az.js
+[2021-04-15 13:05:23,444 INFO ] Zipping (543 KB): lib\locales\bg.js
+[2021-04-15 13:05:23,450 INFO ] Zipping (546 KB): lib\locales\ca.js
+[2021-04-15 13:05:23,458 INFO ] Zipping (548 KB): lib\locales\cr.js
+[2021-04-15 13:05:23,464 INFO ] Zipping (550 KB): lib\locales\cs.js
+[2021-04-15 13:05:23,470 INFO ] Zipping (552 KB): lib\locales\da.js
+[2021-04-15 13:05:23,478 INFO ] Zipping (554 KB): lib\locales\de.js
+[2021-04-15 13:05:23,484 INFO ] Zipping (556 KB): lib\locales\el.js
+[2021-04-15 13:05:23,493 INFO ] Zipping (558 KB): lib\locales\es.js
+[2021-04-15 13:05:23,498 INFO ] Zipping (560 KB): lib\locales\et.js
+[2021-04-15 13:05:23,504 INFO ] Zipping (562 KB): lib\locales\fa.js
+[2021-04-15 13:05:23,513 INFO ] Zipping (565 KB): lib\locales\fi.js
+[2021-04-15 13:05:23,518 INFO ] Zipping (566 KB): lib\locales\fr.js
+[2021-04-15 13:05:23,527 INFO ] Zipping (569 KB): lib\locales\gl.js
+[2021-04-15 13:05:23,532 INFO ] Zipping (571 KB): lib\locales\he.js
+[2021-04-15 13:05:23,539 INFO ] Zipping (573 KB): lib\locales\hu.js
+[2021-04-15 13:05:23,547 INFO ] Zipping (575 KB): lib\locales\id.js
+[2021-04-15 13:05:23,552 INFO ] Zipping (577 KB): lib\locales\it.js
+[2021-04-15 13:05:23,560 INFO ] Zipping (579 KB): lib\locales\ja.js
+[2021-04-15 13:05:23,565 INFO ] Zipping (581 KB): lib\locales\ka.js
+[2021-04-15 13:05:23,574 INFO ] Zipping (584 KB): lib\locales\kr.js
+[2021-04-15 13:05:23,580 INFO ] Zipping (586 KB): lib\locales\kz.js
+[2021-04-15 13:05:23,586 INFO ] Zipping (588 KB): lib\locales\lt.js
+[2021-04-15 13:05:23,593 INFO ] Zipping (590 KB): lib\locales\nl.js
+[2021-04-15 13:05:23,599 INFO ] Zipping (592 KB): lib\locales\no.js
+[2021-04-15 13:05:23,606 INFO ] Zipping (594 KB): lib\locales\pl.js
+[2021-04-15 13:05:23,611 INFO ] Zipping (596 KB): lib\locales\pt-BR.js
+[2021-04-15 13:05:23,617 INFO ] Zipping (598 KB): lib\locales\pt.js
+[2021-04-15 13:05:23,623 INFO ] Zipping (600 KB): lib\locales\ro.js
+[2021-04-15 13:05:23,628 INFO ] Zipping (602 KB): lib\locales\ru.js
+[2021-04-15 13:05:23,634 INFO ] Zipping (605 KB): lib\locales\sk.js
+[2021-04-15 13:05:23,640 INFO ] Zipping (607 KB): lib\locales\sl.js
+[2021-04-15 13:05:23,646 INFO ] Zipping (609 KB): lib\locales\sv.js
+[2021-04-15 13:05:23,652 INFO ] Zipping (611 KB): lib\locales\th.js
+[2021-04-15 13:05:23,659 INFO ] Zipping (613 KB): lib\locales\tr.js
+[2021-04-15 13:05:23,665 INFO ] Zipping (615 KB): lib\locales\uk.js
+[2021-04-15 13:05:23,673 INFO ] Zipping (617 KB): lib\locales\uz.js
+[2021-04-15 13:05:23,679 INFO ] Zipping (619 KB): lib\locales\vi.js
+[2021-04-15 13:05:23,685 INFO ] Zipping (621 KB): lib\locales\zh.js
+[2021-04-15 13:05:23,691 INFO ] Zipping (623 KB): lib\moment-timezone.min.js
+[2021-04-15 13:05:23,716 INFO ] Zipping (649 KB): lib\moment.min.js
+[2021-04-15 13:05:23,728 INFO ] Zipping (661 KB): lib\nes-gamepad.min.js
+[2021-04-15 13:05:23,732 INFO ] Zipping (662 KB): lib\nouislider.min.js
+[2021-04-15 13:05:23,739 INFO ] Zipping (669 KB): lib\piexif.min.js
+[2021-04-15 13:05:23,750 INFO ] Zipping (678 KB): lib\plyr.min.js
+[2021-04-15 13:05:23,752 INFO ] Zipping (678 KB): lib\plyr.polyfilled.min.js
+[2021-04-15 13:05:23,772 INFO ] Zipping (732 KB): lib\sortable.min.js
+[2021-04-15 13:05:23,780 INFO ] Zipping (737 KB): lib\svg.draw.min.js
+[2021-04-15 13:05:23,786 INFO ] Zipping (738 KB): lib\svg.min.js
+[2021-04-15 13:05:23,798 INFO ] Zipping (755 KB): lib\vxgplayer-1.8.51.min.js
+[2021-04-15 13:05:23,807 INFO ] Zipping (762 KB): lib\vxgplayer-1.8.54.min.js
+[2021-04-15 13:05:23,815 INFO ] Zipping (769 KB): live.min.js
+[2021-04-15 13:05:23,823 INFO ] Zipping (776 KB): login.min.js
+[2021-04-15 13:05:23,829 INFO ] Zipping (778 KB): logs.min.js
+[2021-04-15 13:05:23,836 INFO ] Zipping (780 KB): lpr.min.js
+[2021-04-15 13:05:23,850 INFO ] Zipping (804 KB): mse.min.js
+[2021-04-15 13:05:23,851 INFO ] Zipping (804 KB): or.min.js
+[2021-04-15 13:05:23,863 INFO ] Zipping (825 KB): pipelining.min.js
+[2021-04-15 13:05:23,869 INFO ] Zipping (826 KB): playback.min.js
+[2021-04-15 13:05:23,879 INFO ] Zipping (832 KB): playback_new.min.js
+[2021-04-15 13:05:23,889 INFO ] Zipping (843 KB): ptz.min.js
+[2021-04-15 13:05:23,897 INFO ] Zipping (847 KB): realtime.min.js
+[2021-04-15 13:05:23,904 INFO ] Zipping (848 KB): sharing.min.js
+[2021-04-15 13:05:23,915 INFO ] Zipping (855 KB): tools.min.js
+[2021-04-15 13:05:23,921 INFO ] Zipping (856 KB): tree.min.js
+[2021-04-15 13:05:23,929 INFO ] Zipping (857 KB): va.min.js
+[2021-04-15 13:05:23,939 INFO ] Zipping (872 KB): vms.min.js
+[2021-04-15 13:05:23,947 INFO ] Zipping (877 KB): webrtc.min.js
+[2021-04-15 13:05:24,027 INFO ] Zipping complete with 126 files, total compressed size: 896 KB
+[2021-04-15 13:05:24,027 INFO ] Temporary file with zipped sources was created at: 'C:\Users\Stanley\AppData\Local\Temp\zippedSource13213061364666062691.bin'
+[2021-04-15 13:05:24,027 INFO ] Uploading zip file
+[2021-04-15 13:05:24,320 INFO ] Temporary file deleted
+[2021-04-15 13:05:24,321 INFO ] Sending SAST scan request
+[2021-04-15 13:05:24,361 INFO ] SAST Scan created successfully. Link to project state: https://checkmarx.cht.com.tw/CxWebClient/CxWebClient/portal#/projectState/1523/Summary
+[2021-04-15 13:05:24,362 INFO ] ------------------------------------Get CxSAST Results:-----------------------------------
+[2021-04-15 13:05:24,362 INFO ] Waiting for CxSAST scan to finish.
+[2021-04-15 13:05:34,465 INFO ] Waiting for SAST scan results. Elapsed time: 00:00:10.  0% processed. Status: SourcePullingAndDeployment.
+[2021-04-15 13:05:44,532 INFO ] Waiting for SAST scan results. Elapsed time: 00:00:20.  0% processed. Status: SourcePullingAndDeployment.
+[2021-04-15 13:05:54,591 INFO ] Waiting for SAST scan results. Elapsed time: 00:00:30.  0% processed. Status: Scanning.
+[2021-04-15 13:06:04,638 INFO ] Waiting for SAST scan results. Elapsed time: 00:00:40.  0% processed. Status: Scanning.
+[2021-04-15 13:06:14,690 INFO ] Waiting for SAST scan results. Elapsed time: 00:00:50.  0% processed. Status: Scanning.
+[2021-04-15 13:06:24,730 INFO ] Waiting for SAST scan results. Elapsed time: 00:01:00.  4% processed. Status: Scanning.
+[2021-04-15 13:06:34,771 INFO ] Waiting for SAST scan results. Elapsed time: 00:01:10.  4% processed. Status: Scanning.
+[2021-04-15 13:06:44,803 INFO ] Waiting for SAST scan results. Elapsed time: 00:01:20.  4% processed. Status: Scanning.
+[2021-04-15 13:06:54,839 INFO ] Waiting for SAST scan results. Elapsed time: 00:01:30.  6% processed. Status: Scanning.
+[2021-04-15 13:07:04,880 INFO ] Waiting for SAST scan results. Elapsed time: 00:01:40.  6% processed. Status: Scanning.
+[2021-04-15 13:07:14,927 INFO ] Waiting for SAST scan results. Elapsed time: 00:01:50.  6% processed. Status: Scanning.
+[2021-04-15 13:07:24,962 INFO ] Waiting for SAST scan results. Elapsed time: 00:02:00.  6% processed. Status: Scanning.
+[2021-04-15 13:07:35,006 INFO ] Waiting for SAST scan results. Elapsed time: 00:02:11.  6% processed. Status: Scanning.
+[2021-04-15 13:07:45,040 INFO ] Waiting for SAST scan results. Elapsed time: 00:02:21.  6% processed. Status: Scanning.
+[2021-04-15 13:07:55,084 INFO ] Waiting for SAST scan results. Elapsed time: 00:02:31.  6% processed. Status: Scanning.
+[2021-04-15 13:08:05,121 INFO ] Waiting for SAST scan results. Elapsed time: 00:02:41.  6% processed. Status: Scanning.
+[2021-04-15 13:08:15,169 INFO ] Waiting for SAST scan results. Elapsed time: 00:02:51.  6% processed. Status: Scanning.
+[2021-04-15 13:08:25,210 INFO ] Waiting for SAST scan results. Elapsed time: 00:03:01.  6% processed. Status: Scanning.
+[2021-04-15 13:08:35,238 INFO ] Waiting for SAST scan results. Elapsed time: 00:03:11.  6% processed. Status: Scanning.
+[2021-04-15 13:08:45,272 INFO ] Waiting for SAST scan results. Elapsed time: 00:03:21.  6% processed. Status: Scanning.
+[2021-04-15 13:08:55,298 INFO ] Waiting for SAST scan results. Elapsed time: 00:03:31.  6% processed. Status: Scanning.
+[2021-04-15 13:09:05,332 INFO ] Waiting for SAST scan results. Elapsed time: 00:03:41.  6% processed. Status: Scanning.
+[2021-04-15 13:09:15,358 INFO ] Waiting for SAST scan results. Elapsed time: 00:03:51.  6% processed. Status: Scanning.
+[2021-04-15 13:09:25,394 INFO ] Waiting for SAST scan results. Elapsed time: 00:04:01.  6% processed. Status: Scanning.
+[2021-04-15 13:09:35,432 INFO ] Waiting for SAST scan results. Elapsed time: 00:04:11.  6% processed. Status: Scanning.
+[2021-04-15 13:09:45,470 INFO ] Waiting for SAST scan results. Elapsed time: 00:04:21.  6% processed. Status: Scanning.
+[2021-04-15 13:09:55,513 INFO ] Waiting for SAST scan results. Elapsed time: 00:04:31.  6% processed. Status: Scanning.
+[2021-04-15 13:10:05,556 INFO ] Waiting for SAST scan results. Elapsed time: 00:04:41.  6% processed. Status: Scanning.
+[2021-04-15 13:10:15,593 INFO ] Waiting for SAST scan results. Elapsed time: 00:04:51.  6% processed. Status: Scanning.
+[2021-04-15 13:10:25,660 INFO ] Waiting for SAST scan results. Elapsed time: 00:05:01. 13% processed. Status: Scanning.
+[2021-04-15 13:10:35,703 INFO ] Waiting for SAST scan results. Elapsed time: 00:05:11. 13% processed. Status: Scanning.
+[2021-04-15 13:10:45,735 INFO ] Waiting for SAST scan results. Elapsed time: 00:05:21. 13% processed. Status: Scanning.
+[2021-04-15 13:10:55,776 INFO ] Waiting for SAST scan results. Elapsed time: 00:05:31. 16% processed. Status: Scanning.
+[2021-04-15 13:11:05,802 INFO ] Waiting for SAST scan results. Elapsed time: 00:05:41. 16% processed. Status: Scanning.
+[2021-04-15 13:11:15,829 INFO ] Waiting for SAST scan results. Elapsed time: 00:05:51. 16% processed. Status: Scanning.
+[2021-04-15 13:11:25,863 INFO ] Waiting for SAST scan results. Elapsed time: 00:06:01. 21% processed. Status: Scanning.
+[2021-04-15 13:11:35,895 INFO ] Waiting for SAST scan results. Elapsed time: 00:06:11. 21% processed. Status: Scanning.
+[2021-04-15 13:11:45,931 INFO ] Waiting for SAST scan results. Elapsed time: 00:06:21. 21% processed. Status: Scanning.
+[2021-04-15 13:11:55,976 INFO ] Waiting for SAST scan results. Elapsed time: 00:06:31. 21% processed. Status: Scanning.
+[2021-04-15 13:12:06,005 INFO ] Waiting for SAST scan results. Elapsed time: 00:06:42. 21% processed. Status: Scanning.
+[2021-04-15 13:12:16,044 INFO ] Waiting for SAST scan results. Elapsed time: 00:06:52. 21% processed. Status: Scanning.
+[2021-04-15 13:12:26,076 INFO ] Waiting for SAST scan results. Elapsed time: 00:07:02. 21% processed. Status: Scanning.
+[2021-04-15 13:12:36,121 INFO ] Waiting for SAST scan results. Elapsed time: 00:07:12. 21% processed. Status: Scanning.
+[2021-04-15 13:12:46,158 INFO ] Waiting for SAST scan results. Elapsed time: 00:07:22. 21% processed. Status: Scanning.
+[2021-04-15 13:12:56,204 INFO ] Waiting for SAST scan results. Elapsed time: 00:07:32. 21% processed. Status: Scanning.
+[2021-04-15 13:13:06,245 INFO ] Waiting for SAST scan results. Elapsed time: 00:07:42. 21% processed. Status: Scanning.
+[2021-04-15 13:13:16,276 INFO ] Waiting for SAST scan results. Elapsed time: 00:07:52. 21% processed. Status: Scanning.
+[2021-04-15 13:13:26,319 INFO ] Waiting for SAST scan results. Elapsed time: 00:08:02. 21% processed. Status: Scanning.
+[2021-04-15 13:13:36,352 INFO ] Waiting for SAST scan results. Elapsed time: 00:08:12. 21% processed. Status: Scanning.
+[2021-04-15 13:13:46,383 INFO ] Waiting for SAST scan results. Elapsed time: 00:08:22. 21% processed. Status: Scanning.
+[2021-04-15 13:13:56,421 INFO ] Waiting for SAST scan results. Elapsed time: 00:08:32. 21% processed. Status: Scanning.
+[2021-04-15 13:14:06,464 INFO ] Waiting for SAST scan results. Elapsed time: 00:08:42. 21% processed. Status: Scanning.
+[2021-04-15 13:14:16,499 INFO ] Waiting for SAST scan results. Elapsed time: 00:08:52. 21% processed. Status: Scanning.
+[2021-04-15 13:14:26,544 INFO ] Waiting for SAST scan results. Elapsed time: 00:09:02. 21% processed. Status: Scanning.
+[2021-04-15 13:14:36,585 INFO ] Waiting for SAST scan results. Elapsed time: 00:09:12. 21% processed. Status: Scanning.
+[2021-04-15 13:14:46,617 INFO ] Waiting for SAST scan results. Elapsed time: 00:09:22. 21% processed. Status: Scanning.
+[2021-04-15 13:14:56,664 INFO ] Waiting for SAST scan results. Elapsed time: 00:09:32. 21% processed. Status: Scanning.
+[2021-04-15 13:15:06,702 INFO ] Waiting for SAST scan results. Elapsed time: 00:09:42. 21% processed. Status: Scanning.
+[2021-04-15 13:15:16,730 INFO ] Waiting for SAST scan results. Elapsed time: 00:09:52. 21% processed. Status: Scanning.
+[2021-04-15 13:15:26,765 INFO ] Waiting for SAST scan results. Elapsed time: 00:10:02. 21% processed. Status: Scanning.
+[2021-04-15 13:15:36,795 INFO ] Waiting for SAST scan results. Elapsed time: 00:10:12. 21% processed. Status: Scanning.
+[2021-04-15 13:15:46,830 INFO ] Waiting for SAST scan results. Elapsed time: 00:10:22. 21% processed. Status: Scanning.
+[2021-04-15 13:15:56,903 INFO ] Waiting for SAST scan results. Elapsed time: 00:10:32. 22% processed. Status: Scanning.
+[2021-04-15 13:16:06,950 INFO ] Waiting for SAST scan results. Elapsed time: 00:10:42. 22% processed. Status: Scanning.
+[2021-04-15 13:16:17,114 INFO ] Waiting for SAST scan results. Elapsed time: 00:10:53. 22% processed. Status: Scanning.
+[2021-04-15 13:16:27,166 INFO ] Waiting for SAST scan results. Elapsed time: 00:11:03. 22% processed. Status: Scanning.
+[2021-04-15 13:16:37,206 INFO ] Waiting for SAST scan results. Elapsed time: 00:11:13. 22% processed. Status: Scanning.
+[2021-04-15 13:16:47,245 INFO ] Waiting for SAST scan results. Elapsed time: 00:11:23. 22% processed. Status: Scanning.
+[2021-04-15 13:16:57,299 INFO ] Waiting for SAST scan results. Elapsed time: 00:11:33. 22% processed. Status: Scanning.
+[2021-04-15 13:17:07,331 INFO ] Waiting for SAST scan results. Elapsed time: 00:11:43. 22% processed. Status: Scanning.
+[2021-04-15 13:17:17,371 INFO ] Waiting for SAST scan results. Elapsed time: 00:11:53. 22% processed. Status: Scanning.
+[2021-04-15 13:17:27,424 INFO ] Waiting for SAST scan results. Elapsed time: 00:12:03. 22% processed. Status: Scanning.
+[2021-04-15 13:17:37,469 INFO ] Waiting for SAST scan results. Elapsed time: 00:12:13. 22% processed. Status: Scanning.
+[2021-04-15 13:17:47,510 INFO ] Waiting for SAST scan results. Elapsed time: 00:12:23. 22% processed. Status: Scanning.
+[2021-04-15 13:17:57,567 INFO ] Waiting for SAST scan results. Elapsed time: 00:12:33. 22% processed. Status: Scanning.
+[2021-04-15 13:18:07,618 INFO ] Waiting for SAST scan results. Elapsed time: 00:12:43. 22% processed. Status: Scanning.
+[2021-04-15 13:18:17,665 INFO ] Waiting for SAST scan results. Elapsed time: 00:12:53. 22% processed. Status: Scanning.
+[2021-04-15 13:18:27,749 INFO ] Waiting for SAST scan results. Elapsed time: 00:13:03. 22% processed. Status: Scanning.
+[2021-04-15 13:18:37,798 INFO ] Waiting for SAST scan results. Elapsed time: 00:13:13. 22% processed. Status: Scanning.
+[2021-04-15 13:18:47,843 INFO ] Waiting for SAST scan results. Elapsed time: 00:13:23. 22% processed. Status: Scanning.
+[2021-04-15 13:18:57,889 INFO ] Waiting for SAST scan results. Elapsed time: 00:13:33. 22% processed. Status: Scanning.
+[2021-04-15 13:19:07,934 INFO ] Waiting for SAST scan results. Elapsed time: 00:13:43. 22% processed. Status: Scanning.
+[2021-04-15 13:19:17,968 INFO ] Waiting for SAST scan results. Elapsed time: 00:13:53. 22% processed. Status: Scanning.
+[2021-04-15 13:19:28,006 INFO ] Waiting for SAST scan results. Elapsed time: 00:14:04. 22% processed. Status: Scanning.
+[2021-04-15 13:19:38,052 INFO ] Waiting for SAST scan results. Elapsed time: 00:14:14. 22% processed. Status: Scanning.
+[2021-04-15 13:19:48,081 INFO ] Waiting for SAST scan results. Elapsed time: 00:14:24. 22% processed. Status: Scanning.
+[2021-04-15 13:19:58,133 INFO ] Waiting for SAST scan results. Elapsed time: 00:14:34. 22% processed. Status: Scanning.
+[2021-04-15 13:20:08,170 INFO ] Waiting for SAST scan results. Elapsed time: 00:14:44. 22% processed. Status: Scanning.
+[2021-04-15 13:20:18,216 INFO ] Waiting for SAST scan results. Elapsed time: 00:14:54. 22% processed. Status: Scanning.
+[2021-04-15 13:20:28,268 INFO ] Waiting for SAST scan results. Elapsed time: 00:15:04. 22% processed. Status: Scanning.
+[2021-04-15 13:20:38,318 INFO ] Waiting for SAST scan results. Elapsed time: 00:15:14. 22% processed. Status: Scanning.
+[2021-04-15 13:20:48,352 INFO ] Waiting for SAST scan results. Elapsed time: 00:15:24. 22% processed. Status: Scanning.
+[2021-04-15 13:20:58,401 INFO ] Waiting for SAST scan results. Elapsed time: 00:15:34. 22% processed. Status: Scanning.
+[2021-04-15 13:21:08,451 INFO ] Waiting for SAST scan results. Elapsed time: 00:15:44. 22% processed. Status: Scanning.
+[2021-04-15 13:21:18,490 INFO ] Waiting for SAST scan results. Elapsed time: 00:15:54. 22% processed. Status: Scanning.
+[2021-04-15 13:21:28,551 INFO ] Waiting for SAST scan results. Elapsed time: 00:16:04. 22% processed. Status: Scanning.
+[2021-04-15 13:21:38,594 INFO ] Waiting for SAST scan results. Elapsed time: 00:16:14. 22% processed. Status: Scanning.
+[2021-04-15 13:21:48,633 INFO ] Waiting for SAST scan results. Elapsed time: 00:16:24. 22% processed. Status: Scanning.
+[2021-04-15 13:21:58,685 INFO ] Waiting for SAST scan results. Elapsed time: 00:16:34. 22% processed. Status: Scanning.
+[2021-04-15 13:22:08,729 INFO ] Waiting for SAST scan results. Elapsed time: 00:16:44. 22% processed. Status: Scanning.
+[2021-04-15 13:22:18,781 INFO ] Waiting for SAST scan results. Elapsed time: 00:16:54. 22% processed. Status: Scanning.
+[2021-04-15 13:22:28,835 INFO ] Waiting for SAST scan results. Elapsed time: 00:17:04. 22% processed. Status: Scanning.
+[2021-04-15 13:22:38,874 INFO ] Waiting for SAST scan results. Elapsed time: 00:17:14. 22% processed. Status: Scanning.
+[2021-04-15 13:22:48,911 INFO ] Waiting for SAST scan results. Elapsed time: 00:17:24. 22% processed. Status: Scanning.
+[2021-04-15 13:22:59,029 INFO ] Waiting for SAST scan results. Elapsed time: 00:17:35. 24% processed. Status: Scanning.
+[2021-04-15 13:23:09,080 INFO ] Waiting for SAST scan results. Elapsed time: 00:17:45. 24% processed. Status: Scanning.
+[2021-04-15 13:23:19,122 INFO ] Waiting for SAST scan results. Elapsed time: 00:17:55. 24% processed. Status: Scanning.
+[2021-04-15 13:23:29,186 INFO ] Waiting for SAST scan results. Elapsed time: 00:18:05. 24% processed. Status: Scanning.
+[2021-04-15 13:23:39,221 INFO ] Waiting for SAST scan results. Elapsed time: 00:18:15. 24% processed. Status: Scanning.
+[2021-04-15 13:23:49,268 INFO ] Waiting for SAST scan results. Elapsed time: 00:18:25. 24% processed. Status: Scanning.
+[2021-04-15 13:23:59,319 INFO ] Waiting for SAST scan results. Elapsed time: 00:18:35. 24% processed. Status: Scanning.
+[2021-04-15 13:24:09,356 INFO ] Waiting for SAST scan results. Elapsed time: 00:18:45. 24% processed. Status: Scanning.
+[2021-04-15 13:24:19,389 INFO ] Waiting for SAST scan results. Elapsed time: 00:18:55. 24% processed. Status: Scanning.
+[2021-04-15 13:24:29,451 INFO ] Waiting for SAST scan results. Elapsed time: 00:19:05. 24% processed. Status: Scanning.
+[2021-04-15 13:24:39,494 INFO ] Waiting for SAST scan results. Elapsed time: 00:19:15. 24% processed. Status: Scanning.
+[2021-04-15 13:24:49,540 INFO ] Waiting for SAST scan results. Elapsed time: 00:19:25. 24% processed. Status: Scanning.
+[2021-04-15 13:24:59,593 INFO ] Waiting for SAST scan results. Elapsed time: 00:19:35. 24% processed. Status: Scanning.
+[2021-04-15 13:25:09,638 INFO ] Waiting for SAST scan results. Elapsed time: 00:19:45. 24% processed. Status: Scanning.
+[2021-04-15 13:25:19,681 INFO ] Waiting for SAST scan results. Elapsed time: 00:19:55. 24% processed. Status: Scanning.
+[2021-04-15 13:25:29,745 INFO ] Waiting for SAST scan results. Elapsed time: 00:20:05. 24% processed. Status: Scanning.
+[2021-04-15 13:25:39,788 INFO ] Waiting for SAST scan results. Elapsed time: 00:20:15. 24% processed. Status: Scanning.
+[2021-04-15 13:25:49,840 INFO ] Waiting for SAST scan results. Elapsed time: 00:20:25. 24% processed. Status: Scanning.
+[2021-04-15 13:25:59,899 INFO ] Waiting for SAST scan results. Elapsed time: 00:20:35. 24% processed. Status: Scanning.
+[2021-04-15 13:26:09,945 INFO ] Waiting for SAST scan results. Elapsed time: 00:20:45. 24% processed. Status: Scanning.
+[2021-04-15 13:26:19,987 INFO ] Waiting for SAST scan results. Elapsed time: 00:20:55. 24% processed. Status: Scanning.
+[2021-04-15 13:26:30,038 INFO ] Waiting for SAST scan results. Elapsed time: 00:21:06. 24% processed. Status: Scanning.
+[2021-04-15 13:26:40,086 INFO ] Waiting for SAST scan results. Elapsed time: 00:21:16. 24% processed. Status: Scanning.
+[2021-04-15 13:26:50,133 INFO ] Waiting for SAST scan results. Elapsed time: 00:21:26. 24% processed. Status: Scanning.
+[2021-04-15 13:27:00,193 INFO ] Waiting for SAST scan results. Elapsed time: 00:21:36. 24% processed. Status: Scanning.
+[2021-04-15 13:27:10,243 INFO ] Waiting for SAST scan results. Elapsed time: 00:21:46. 24% processed. Status: Scanning.
+[2021-04-15 13:27:20,293 INFO ] Waiting for SAST scan results. Elapsed time: 00:21:56. 24% processed. Status: Scanning.
+[2021-04-15 13:27:30,351 INFO ] Waiting for SAST scan results. Elapsed time: 00:22:06. 24% processed. Status: Scanning.
+[2021-04-15 13:27:40,388 INFO ] Waiting for SAST scan results. Elapsed time: 00:22:16. 24% processed. Status: Scanning.
+[2021-04-15 13:27:50,437 INFO ] Waiting for SAST scan results. Elapsed time: 00:22:26. 24% processed. Status: Scanning.
+[2021-04-15 13:28:00,509 INFO ] Waiting for SAST scan results. Elapsed time: 00:22:36. 24% processed. Status: Scanning.
+[2021-04-15 13:28:10,557 INFO ] Waiting for SAST scan results. Elapsed time: 00:22:46. 24% processed. Status: Scanning.
+[2021-04-15 13:28:20,587 INFO ] Waiting for SAST scan results. Elapsed time: 00:22:56. 24% processed. Status: Scanning.
+[2021-04-15 13:28:30,655 INFO ] Waiting for SAST scan results. Elapsed time: 00:23:06. 24% processed. Status: Scanning.
+[2021-04-15 13:28:40,699 INFO ] Waiting for SAST scan results. Elapsed time: 00:23:16. 24% processed. Status: Scanning.
+[2021-04-15 13:28:50,744 INFO ] Waiting for SAST scan results. Elapsed time: 00:23:26. 24% processed. Status: Scanning.
+[2021-04-15 13:29:00,801 INFO ] Waiting for SAST scan results. Elapsed time: 00:23:36. 24% processed. Status: Scanning.
+[2021-04-15 13:29:10,838 INFO ] Waiting for SAST scan results. Elapsed time: 00:23:46. 24% processed. Status: Scanning.
+[2021-04-15 13:29:20,886 INFO ] Waiting for SAST scan results. Elapsed time: 00:23:56. 24% processed. Status: Scanning.
+[2021-04-15 13:29:30,941 INFO ] Waiting for SAST scan results. Elapsed time: 00:24:06. 24% processed. Status: Scanning.
+[2021-04-15 13:29:40,991 INFO ] Waiting for SAST scan results. Elapsed time: 00:24:16. 24% processed. Status: Scanning.
+[2021-04-15 13:29:51,040 INFO ] Waiting for SAST scan results. Elapsed time: 00:24:27. 24% processed. Status: Scanning.
+[2021-04-15 13:30:01,101 INFO ] Waiting for SAST scan results. Elapsed time: 00:24:37. 24% processed. Status: Scanning.
+[2021-04-15 13:30:11,146 INFO ] Waiting for SAST scan results. Elapsed time: 00:24:47. 24% processed. Status: Scanning.
+[2021-04-15 13:30:21,182 INFO ] Waiting for SAST scan results. Elapsed time: 00:24:57. 24% processed. Status: Scanning.
+[2021-04-15 13:30:31,234 INFO ] Waiting for SAST scan results. Elapsed time: 00:25:07. 24% processed. Status: Scanning.
+[2021-04-15 13:30:41,294 INFO ] Waiting for SAST scan results. Elapsed time: 00:25:17. 24% processed. Status: Scanning.
+[2021-04-15 13:30:51,340 INFO ] Waiting for SAST scan results. Elapsed time: 00:25:27. 24% processed. Status: Scanning.
+[2021-04-15 13:31:01,390 INFO ] Waiting for SAST scan results. Elapsed time: 00:25:37. 24% processed. Status: Scanning.
+[2021-04-15 13:31:11,429 INFO ] Waiting for SAST scan results. Elapsed time: 00:25:47. 24% processed. Status: Scanning.
+[2021-04-15 13:31:21,465 INFO ] Waiting for SAST scan results. Elapsed time: 00:25:57. 24% processed. Status: Scanning.
+[2021-04-15 13:31:31,521 INFO ] Waiting for SAST scan results. Elapsed time: 00:26:07. 24% processed. Status: Scanning.
+[2021-04-15 13:31:41,559 INFO ] Waiting for SAST scan results. Elapsed time: 00:26:17. 24% processed. Status: Scanning.
+[2021-04-15 13:31:51,612 INFO ] Waiting for SAST scan results. Elapsed time: 00:26:27. 24% processed. Status: Scanning.
+[2021-04-15 13:32:01,675 INFO ] Waiting for SAST scan results. Elapsed time: 00:26:37. 24% processed. Status: Scanning.
+[2021-04-15 13:32:11,713 INFO ] Waiting for SAST scan results. Elapsed time: 00:26:47. 24% processed. Status: Scanning.
+[2021-04-15 13:32:21,756 INFO ] Waiting for SAST scan results. Elapsed time: 00:26:57. 24% processed. Status: Scanning.
+[2021-04-15 13:32:31,828 INFO ] Waiting for SAST scan results. Elapsed time: 00:27:07. 24% processed. Status: Scanning.
+[2021-04-15 13:32:41,867 INFO ] Waiting for SAST scan results. Elapsed time: 00:27:17. 24% processed. Status: Scanning.
+[2021-04-15 13:32:51,913 INFO ] Waiting for SAST scan results. Elapsed time: 00:27:27. 24% processed. Status: Scanning.
+[2021-04-15 13:33:01,989 INFO ] Waiting for SAST scan results. Elapsed time: 00:27:37. 24% processed. Status: Scanning.
+[2021-04-15 13:33:12,034 INFO ] Waiting for SAST scan results. Elapsed time: 00:27:48. 24% processed. Status: Scanning.
+[2021-04-15 13:33:22,077 INFO ] Waiting for SAST scan results. Elapsed time: 00:27:58. 24% processed. Status: Scanning.
+[2021-04-15 13:33:32,129 INFO ] Waiting for SAST scan results. Elapsed time: 00:28:08. 24% processed. Status: Scanning.
+[2021-04-15 13:33:42,176 INFO ] Waiting for SAST scan results. Elapsed time: 00:28:18. 24% processed. Status: Scanning.
+[2021-04-15 13:33:52,206 INFO ] Waiting for SAST scan results. Elapsed time: 00:28:28. 24% processed. Status: Scanning.
+[2021-04-15 13:34:02,253 INFO ] Waiting for SAST scan results. Elapsed time: 00:28:38. 24% processed. Status: Scanning.
+[2021-04-15 13:34:12,300 INFO ] Waiting for SAST scan results. Elapsed time: 00:28:48. 24% processed. Status: Scanning.
+[2021-04-15 13:34:22,335 INFO ] Waiting for SAST scan results. Elapsed time: 00:28:58. 24% processed. Status: Scanning.
+[2021-04-15 13:34:32,398 INFO ] Waiting for SAST scan results. Elapsed time: 00:29:08. 24% processed. Status: Scanning.
+[2021-04-15 13:34:42,443 INFO ] Waiting for SAST scan results. Elapsed time: 00:29:18. 24% processed. Status: Scanning.
+[2021-04-15 13:34:52,489 INFO ] Waiting for SAST scan results. Elapsed time: 00:29:28. 24% processed. Status: Scanning.
+[2021-04-15 13:35:02,538 INFO ] Waiting for SAST scan results. Elapsed time: 00:29:38. 24% processed. Status: Scanning.
+[2021-04-15 13:35:12,588 INFO ] Waiting for SAST scan results. Elapsed time: 00:29:48. 24% processed. Status: Scanning.
+[2021-04-15 13:35:22,639 INFO ] Waiting for SAST scan results. Elapsed time: 00:29:58. 24% processed. Status: Scanning.
+[2021-04-15 13:35:32,690 INFO ] Waiting for SAST scan results. Elapsed time: 00:30:08. 24% processed. Status: Scanning.
+[2021-04-15 13:35:42,728 INFO ] Waiting for SAST scan results. Elapsed time: 00:30:18. 24% processed. Status: Scanning.
+[2021-04-15 13:35:52,762 INFO ] Waiting for SAST scan results. Elapsed time: 00:30:28. 24% processed. Status: Scanning.
+[2021-04-15 13:36:02,818 INFO ] Waiting for SAST scan results. Elapsed time: 00:30:38. 24% processed. Status: Scanning.
+[2021-04-15 13:36:12,864 INFO ] Waiting for SAST scan results. Elapsed time: 00:30:48. 24% processed. Status: Scanning.
+[2021-04-15 13:36:22,913 INFO ] Waiting for SAST scan results. Elapsed time: 00:30:58. 24% processed. Status: Scanning.
+[2021-04-15 13:36:33,024 INFO ] Waiting for SAST scan results. Elapsed time: 00:31:09. 24% processed. Status: Scanning.
+[2021-04-15 13:36:43,078 INFO ] Waiting for SAST scan results. Elapsed time: 00:31:19. 24% processed. Status: Scanning.
+[2021-04-15 13:36:53,117 INFO ] Waiting for SAST scan results. Elapsed time: 00:31:29. 24% processed. Status: Scanning.
+[2021-04-15 13:37:03,167 INFO ] Waiting for SAST scan results. Elapsed time: 00:31:39. 24% processed. Status: Scanning.
+[2021-04-15 13:37:13,202 INFO ] Waiting for SAST scan results. Elapsed time: 00:31:49. 24% processed. Status: Scanning.
+[2021-04-15 13:37:23,245 INFO ] Waiting for SAST scan results. Elapsed time: 00:31:59. 24% processed. Status: Scanning.
+[2021-04-15 13:37:33,292 INFO ] Waiting for SAST scan results. Elapsed time: 00:32:09. 24% processed. Status: Scanning.
+[2021-04-15 13:37:43,332 INFO ] Waiting for SAST scan results. Elapsed time: 00:32:19. 24% processed. Status: Scanning.
+[2021-04-15 13:37:53,374 INFO ] Waiting for SAST scan results. Elapsed time: 00:32:29. 24% processed. Status: Scanning.
+[2021-04-15 13:38:03,425 INFO ] Waiting for SAST scan results. Elapsed time: 00:32:39. 24% processed. Status: Scanning.
+[2021-04-15 13:38:13,469 INFO ] Waiting for SAST scan results. Elapsed time: 00:32:49. 24% processed. Status: Scanning.
+[2021-04-15 13:38:23,507 INFO ] Waiting for SAST scan results. Elapsed time: 00:32:59. 24% processed. Status: Scanning.
+[2021-04-15 13:38:33,565 INFO ] Waiting for SAST scan results. Elapsed time: 00:33:09. 24% processed. Status: Scanning.
+[2021-04-15 13:38:43,607 INFO ] Waiting for SAST scan results. Elapsed time: 00:33:19. 24% processed. Status: Scanning.
+[2021-04-15 13:38:53,663 INFO ] Waiting for SAST scan results. Elapsed time: 00:33:29. 24% processed. Status: Scanning.
+[2021-04-15 13:39:03,724 INFO ] Waiting for SAST scan results. Elapsed time: 00:33:39. 24% processed. Status: Scanning.
+[2021-04-15 13:39:13,764 INFO ] Waiting for SAST scan results. Elapsed time: 00:33:49. 24% processed. Status: Scanning.
+[2021-04-15 13:39:23,800 INFO ] Waiting for SAST scan results. Elapsed time: 00:33:59. 24% processed. Status: Scanning.
+[2021-04-15 13:39:33,855 INFO ] Waiting for SAST scan results. Elapsed time: 00:34:09. 24% processed. Status: Scanning.
+[2021-04-15 13:39:43,888 INFO ] Waiting for SAST scan results. Elapsed time: 00:34:19. 24% processed. Status: Scanning.
+[2021-04-15 13:39:53,936 INFO ] Waiting for SAST scan results. Elapsed time: 00:34:29. 24% processed. Status: Scanning.
+[2021-04-15 13:40:03,988 INFO ] Waiting for SAST scan results. Elapsed time: 00:34:39. 24% processed. Status: Scanning.
+[2021-04-15 13:40:14,020 INFO ] Waiting for SAST scan results. Elapsed time: 00:34:50. 24% processed. Status: Scanning.
+[2021-04-15 13:40:24,059 INFO ] Waiting for SAST scan results. Elapsed time: 00:35:00. 24% processed. Status: Scanning.
+[2021-04-15 13:40:34,108 INFO ] Waiting for SAST scan results. Elapsed time: 00:35:10. 24% processed. Status: Scanning.
+[2021-04-15 13:40:44,151 INFO ] Waiting for SAST scan results. Elapsed time: 00:35:20. 24% processed. Status: Scanning.
+[2021-04-15 13:40:54,200 INFO ] Waiting for SAST scan results. Elapsed time: 00:35:30. 24% processed. Status: Scanning.
+[2021-04-15 13:41:04,253 INFO ] Waiting for SAST scan results. Elapsed time: 00:35:40. 24% processed. Status: Scanning.
+[2021-04-15 13:41:14,304 INFO ] Waiting for SAST scan results. Elapsed time: 00:35:50. 24% processed. Status: Scanning.
+[2021-04-15 13:41:24,341 INFO ] Waiting for SAST scan results. Elapsed time: 00:36:00. 24% processed. Status: Scanning.
+[2021-04-15 13:41:34,387 INFO ] Waiting for SAST scan results. Elapsed time: 00:36:10. 24% processed. Status: Scanning.
+[2021-04-15 13:41:44,434 INFO ] Waiting for SAST scan results. Elapsed time: 00:36:20. 24% processed. Status: Scanning.
+[2021-04-15 13:41:54,466 INFO ] Waiting for SAST scan results. Elapsed time: 00:36:30. 24% processed. Status: Scanning.
+[2021-04-15 13:42:04,515 INFO ] Waiting for SAST scan results. Elapsed time: 00:36:40. 24% processed. Status: Scanning.
+[2021-04-15 13:42:14,548 INFO ] Waiting for SAST scan results. Elapsed time: 00:36:50. 24% processed. Status: Scanning.
+[2021-04-15 13:42:24,587 INFO ] Waiting for SAST scan results. Elapsed time: 00:37:00. 24% processed. Status: Scanning.
+[2021-04-15 13:42:34,645 INFO ] Waiting for SAST scan results. Elapsed time: 00:37:10. 24% processed. Status: Scanning.
+[2021-04-15 13:42:44,687 INFO ] Waiting for SAST scan results. Elapsed time: 00:37:20. 24% processed. Status: Scanning.
+[2021-04-15 13:42:54,720 INFO ] Waiting for SAST scan results. Elapsed time: 00:37:30. 24% processed. Status: Scanning.
+[2021-04-15 13:43:04,772 INFO ] Waiting for SAST scan results. Elapsed time: 00:37:40. 24% processed. Status: Scanning.
+[2021-04-15 13:43:14,815 INFO ] Waiting for SAST scan results. Elapsed time: 00:37:50. 24% processed. Status: Scanning.
+[2021-04-15 13:43:24,854 INFO ] Waiting for SAST scan results. Elapsed time: 00:38:00. 24% processed. Status: Scanning.
+[2021-04-15 13:43:34,902 INFO ] Waiting for SAST scan results. Elapsed time: 00:38:10. 24% processed. Status: Scanning.
+[2021-04-15 13:43:44,948 INFO ] Waiting for SAST scan results. Elapsed time: 00:38:20. 24% processed. Status: Scanning.
+[2021-04-15 13:43:55,001 INFO ] Waiting for SAST scan results. Elapsed time: 00:38:31. 24% processed. Status: Scanning.
+[2021-04-15 13:44:05,056 INFO ] Waiting for SAST scan results. Elapsed time: 00:38:41. 24% processed. Status: Scanning.
+[2021-04-15 13:44:15,099 INFO ] Waiting for SAST scan results. Elapsed time: 00:38:51. 24% processed. Status: Scanning.
+[2021-04-15 13:44:25,140 INFO ] Waiting for SAST scan results. Elapsed time: 00:39:01. 24% processed. Status: Scanning.
+[2021-04-15 13:44:35,197 INFO ] Waiting for SAST scan results. Elapsed time: 00:39:11. 24% processed. Status: Scanning.
+[2021-04-15 13:44:45,280 INFO ] Waiting for SAST scan results. Elapsed time: 00:39:21. 24% processed. Status: Scanning.
+[2021-04-15 13:44:55,325 INFO ] Waiting for SAST scan results. Elapsed time: 00:39:31. 24% processed. Status: Scanning.
+[2021-04-15 13:45:05,385 INFO ] Waiting for SAST scan results. Elapsed time: 00:39:41. 24% processed. Status: Scanning.
+[2021-04-15 13:45:15,436 INFO ] Waiting for SAST scan results. Elapsed time: 00:39:51. 24% processed. Status: Scanning.
+[2021-04-15 13:45:25,475 INFO ] Waiting for SAST scan results. Elapsed time: 00:40:01. 24% processed. Status: Scanning.
+[2021-04-15 13:45:35,525 INFO ] Waiting for SAST scan results. Elapsed time: 00:40:11. 24% processed. Status: Scanning.
+[2021-04-15 13:45:45,570 INFO ] Waiting for SAST scan results. Elapsed time: 00:40:21. 24% processed. Status: Scanning.
+[2021-04-15 13:45:55,601 INFO ] Waiting for SAST scan results. Elapsed time: 00:40:31. 24% processed. Status: Scanning.
+[2021-04-15 13:46:05,646 INFO ] Waiting for SAST scan results. Elapsed time: 00:40:41. 24% processed. Status: Scanning.
+[2021-04-15 13:46:15,688 INFO ] Waiting for SAST scan results. Elapsed time: 00:40:51. 24% processed. Status: Scanning.
+[2021-04-15 13:46:25,746 INFO ] Waiting for SAST scan results. Elapsed time: 00:41:01. 24% processed. Status: Scanning.
+[2021-04-15 13:46:35,804 INFO ] Waiting for SAST scan results. Elapsed time: 00:41:11. 24% processed. Status: Scanning.
+[2021-04-15 13:46:45,847 INFO ] Waiting for SAST scan results. Elapsed time: 00:41:21. 24% processed. Status: Scanning.
+[2021-04-15 13:46:55,892 INFO ] Waiting for SAST scan results. Elapsed time: 00:41:31. 24% processed. Status: Scanning.
+[2021-04-15 13:47:05,949 INFO ] Waiting for SAST scan results. Elapsed time: 00:41:41. 24% processed. Status: Scanning.
+[2021-04-15 13:47:15,994 INFO ] Waiting for SAST scan results. Elapsed time: 00:41:51. 24% processed. Status: Scanning.
+[2021-04-15 13:47:26,043 INFO ] Waiting for SAST scan results. Elapsed time: 00:42:02. 24% processed. Status: Scanning.
+[2021-04-15 13:47:36,093 INFO ] Waiting for SAST scan results. Elapsed time: 00:42:12. 24% processed. Status: Scanning.
+[2021-04-15 13:47:46,125 INFO ] Waiting for SAST scan results. Elapsed time: 00:42:22. 24% processed. Status: Scanning.
+[2021-04-15 13:47:56,173 INFO ] Waiting for SAST scan results. Elapsed time: 00:42:32. 24% processed. Status: Scanning.
+[2021-04-15 13:48:06,226 INFO ] Waiting for SAST scan results. Elapsed time: 00:42:42. 24% processed. Status: Scanning.
+[2021-04-15 13:48:16,267 INFO ] Waiting for SAST scan results. Elapsed time: 00:42:52. 24% processed. Status: Scanning.
+[2021-04-15 13:48:26,307 INFO ] Waiting for SAST scan results. Elapsed time: 00:43:02. 24% processed. Status: Scanning.
+[2021-04-15 13:48:36,363 INFO ] Waiting for SAST scan results. Elapsed time: 00:43:12. 24% processed. Status: Scanning.
+[2021-04-15 13:48:46,402 INFO ] Waiting for SAST scan results. Elapsed time: 00:43:22. 24% processed. Status: Scanning.
+[2021-04-15 13:48:56,440 INFO ] Waiting for SAST scan results. Elapsed time: 00:43:32. 24% processed. Status: Scanning.
+[2021-04-15 13:49:06,491 INFO ] Waiting for SAST scan results. Elapsed time: 00:43:42. 24% processed. Status: Scanning.
+[2021-04-15 13:49:16,532 INFO ] Waiting for SAST scan results. Elapsed time: 00:43:52. 24% processed. Status: Scanning.
+[2021-04-15 13:49:26,575 INFO ] Waiting for SAST scan results. Elapsed time: 00:44:02. 24% processed. Status: Scanning.
+[2021-04-15 13:49:36,622 INFO ] Waiting for SAST scan results. Elapsed time: 00:44:12. 24% processed. Status: Scanning.
+[2021-04-15 13:49:46,658 INFO ] Waiting for SAST scan results. Elapsed time: 00:44:22. 24% processed. Status: Scanning.
+[2021-04-15 13:49:56,701 INFO ] Waiting for SAST scan results. Elapsed time: 00:44:32. 24% processed. Status: Scanning.
+[2021-04-15 13:50:06,754 INFO ] Waiting for SAST scan results. Elapsed time: 00:44:42. 24% processed. Status: Scanning.
+[2021-04-15 13:50:16,797 INFO ] Waiting for SAST scan results. Elapsed time: 00:44:52. 24% processed. Status: Scanning.
+[2021-04-15 13:50:26,837 INFO ] Waiting for SAST scan results. Elapsed time: 00:45:02. 24% processed. Status: Scanning.
+[2021-04-15 13:50:36,889 INFO ] Waiting for SAST scan results. Elapsed time: 00:45:12. 24% processed. Status: Scanning.
+[2021-04-15 13:50:46,931 INFO ] Waiting for SAST scan results. Elapsed time: 00:45:22. 24% processed. Status: Scanning.
+[2021-04-15 13:50:56,962 INFO ] Waiting for SAST scan results. Elapsed time: 00:45:32. 24% processed. Status: Scanning.
+[2021-04-15 13:51:07,008 INFO ] Waiting for SAST scan results. Elapsed time: 00:45:43. 24% processed. Status: Scanning.
+[2021-04-15 13:51:17,056 INFO ] Waiting for SAST scan results. Elapsed time: 00:45:53. 24% processed. Status: Scanning.
+[2021-04-15 13:51:27,102 INFO ] Waiting for SAST scan results. Elapsed time: 00:46:03. 24% processed. Status: Scanning.
+[2021-04-15 13:51:37,147 INFO ] Waiting for SAST scan results. Elapsed time: 00:46:13. 24% processed. Status: Scanning.
+[2021-04-15 13:51:47,187 INFO ] Waiting for SAST scan results. Elapsed time: 00:46:23. 24% processed. Status: Scanning.
+[2021-04-15 13:51:57,234 INFO ] Waiting for SAST scan results. Elapsed time: 00:46:33. 24% processed. Status: Scanning.
+[2021-04-15 13:52:07,287 INFO ] Waiting for SAST scan results. Elapsed time: 00:46:43. 24% processed. Status: Scanning.
+[2021-04-15 13:52:17,336 INFO ] Waiting for SAST scan results. Elapsed time: 00:46:53. 24% processed. Status: Scanning.
+[2021-04-15 13:52:27,387 INFO ] Waiting for SAST scan results. Elapsed time: 00:47:03. 24% processed. Status: Scanning.
+[2021-04-15 13:52:37,434 INFO ] Waiting for SAST scan results. Elapsed time: 00:47:13. 24% processed. Status: Scanning.
+[2021-04-15 13:52:47,477 INFO ] Waiting for SAST scan results. Elapsed time: 00:47:23. 24% processed. Status: Scanning.
+[2021-04-15 13:52:57,529 INFO ] Waiting for SAST scan results. Elapsed time: 00:47:33. 24% processed. Status: Scanning.
+[2021-04-15 13:53:07,578 INFO ] Waiting for SAST scan results. Elapsed time: 00:47:43. 24% processed. Status: Scanning.
+[2021-04-15 13:53:17,637 INFO ] Waiting for SAST scan results. Elapsed time: 00:47:53. 24% processed. Status: Scanning.
+[2021-04-15 13:53:27,673 INFO ] Waiting for SAST scan results. Elapsed time: 00:48:03. 24% processed. Status: Scanning.
